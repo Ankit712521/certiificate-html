@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Certificate</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .download-button {
+            padding: 12px 25px;
+            font-size: 16px;
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .download-button:hover {
+            background-color: #0f5cab;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://drive.google.com/uc?export=download&id=1v2HL-ZotmUgjtEzimX5Yf8j7Dpwq7EJD" download>
+            <button class="download-button">Download Certificate</button>
+        </a>
+    </div>
+</body>
+</html>
